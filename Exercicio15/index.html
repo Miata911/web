@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lançamento de Produto</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      background-color:beige;
+      padding: 20px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    time {
+      display: block;
+      font-size: 24px;
+      font-weight: bold;
+      color: red;
+      margin: 15px 0;
+      animation: piscar 1s infinite; 
+    }
+
+    @keyframes piscar {
+      5% { opacity: 1; }
+      50% { opacity: 0.01; }
+      100% { opacity: 0.3; }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: azure;
+      margin: 5px;
+      padding: 8px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input, button {
+      padding: 8px;
+      margin: 5px;
+      border-radius: 5px;
+   
+    }
+
+    button {
+      background: rgb(225, 197, 20);
+      color: white;
+    
+    }
+
+  
+  </style>
+</head>
+<body>
+
+  <h1> Lançamento Chocante !!!!</h1>
+  
+  <p>Nosso novo produto chega em breve!</p>
+
+  
+  <img src="1024.png" alt="Produto">
+
+
+  <p>CONTAGEM REGRESSIVA MEU POVO :</p>
+  <time datetime="2025-12-31T00:00">10 dias 05:23:12</time>
+
+ 
+
+  <h2>Pré-venda</h2>
+  <form>
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu email" required>
+    <button type="submit">Reservar agora</button>
+  </form>
+
+</body>
+</html>
