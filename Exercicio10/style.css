@@ -1,7 +1,33 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: azure ;
+      padding: 20px;
+    }
 
+    h1 {
+      text-align: center;
+      color: rgb(25, 26, 26);
+    }
 
-img{
+    .depoimento {
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      display: flexbox;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+     
+    }
 
-    border-radius: 10px;
+    img{
+        
+        border-radius: 80px;
+        display: block;
+        size-adjust: 50px;
+        
 
-}
+    
+    
+    }
+
+  
