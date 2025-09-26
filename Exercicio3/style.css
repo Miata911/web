@@ -1,0 +1,38 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: aqua;
+  margin-bottom: 20px;
+}
+
+.portifolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.port_objeto {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.port_objeto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.port_objeto img {
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+  body {
+
+
+      text-align: center;
+      padding: 2px;
+      
+
+  }
+
+
+  .titulo {
+
+      font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 50px;
+      margin-top: 250px;
+      text-align: center;
+      color: brown;
+      text-shadow: 2px 2px 8px black;
+
+
+  }
+
+  p {
+
+      margin-top: 100px;
+      margin-right: 80px;
+      margin-left: 80px;
+      padding: 2px;
+      text-align: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: azure;
+      font-size: 25px;
+      border: 1px solid lightsteelblue;
+      border-radius: 2px 2px 8px;
+
+
+
+
+  }
+
+
+  .efeito {
+
+      background-image: url("8dcdb56e3001ea29f34a30a5a5cfb631.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      filter: blur(2px);
+      position: fixed;
+      z-index: -1;
+
+
+
+
+
+  }
+
+ p:hover{
+   transform: scale(1.1);
+   
+   color: orange;
+   text-shadow: 2px 2px 8px black;
+   transition: transform 2s;
+
+
+
+
+ }
